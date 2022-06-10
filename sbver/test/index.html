@@ -1,0 +1,20 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sb Version</title>
+</head>
+<body>
+    <h1>index page</h1>
+    <div id="content">
+
+    </div>
+
+<script>
+    fetch('https://sipity19.github.io/sbver/ver.json')
+        .then(data => data.json())
+        .then(json => document.getElementById('content').innerHTML = json.ver);
+</script>
+</body>
+</html>
+
