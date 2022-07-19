@@ -21,4 +21,3 @@
 <br>
 [Sassbook AI Text Summarizer API](https://sassbook.com/ai-text-summarizer-api "AI Text Summarizer API to power you text content curation workflows")
 <br>
-
